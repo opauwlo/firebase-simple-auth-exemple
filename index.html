@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FireBase</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-analytics.js"></script>
+</head>
+
+<body>
+    <div id="not-login" class="login-form">
+        <form onsubmit="login(event)">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="text" class="form-control" id="email" aria-describedby="emailHelp" />
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <div id="login">
+        <div class="card">
+            <div class="card-body">
+                Logado.
+                <button onclick="logout()" type="button" class="btn btn-danger">logout</button>
+              
+            </div>
+          </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
