@@ -5,14 +5,16 @@
 
 ### Hello!
 
-#### Just a few questions I answered for the university.
+#### Just a simple login system using firebase.
 
 ---
 
 
 ## 🖥️ Technologies
 
-- C
+- JS
+- HTML
+- BOOTSTRAP
 
 ## 🎨 Projects
 
